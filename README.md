@@ -1,2 +1,5 @@
 # Conversor-Temperatura
-Desenvolvido para por em prática JavaScript e lógica.
+Desenvolvido para colocar em prática JavaScript e lógica.
+
+
+Link para conferir o resultado: https://convertemperature.netlify.app/
