@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(157, 176, 233);
+}
+h1{
+    color: white;
+    border: solid 2px rgb(92, 106, 148);
+    text-shadow: 2px 1px 1px rgb(92, 106, 148);
+}
+
+header, .inputs, .resultados{
+    margin: 1.2em auto;
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+}
+
+.inputs, #grauInicio, #trocaUnidade, #buttonTrocar, #trocaUnidade1{ 
+   font-size: 1.2em;
+   font-weight: 600;
+   border: none;
+   border-radius: 0.2em;
+}
+
+#buttonTrocar img, #calcular img{
+    width: 1.2em;
+    height: auto;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.inputs #grauInicio {
+    width: 5em;
+    font-size: 1.2em;
+}
+
+.resultados{
+    font-size: 2.2em ;
+    color: red;
+}
+
+.background-img {
+    display: flex;
+    
+}
+#img1, #img2{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+#img1 {
+    margin-right: 7em;
+}
+
+#img2 {
+    margin-left: 7em;
+}
+
+#teste img {
+    position: absolute;
+    width: 20em;
+    height: auto;
+    margin-left: -70px;
+}
+
+@media (max-width: 600px){
+    .inputs, #grauInicio, #trocaUnidade, #buttonTrocar, #trocaUnidade1{
+        display: flex;
+        flex-direction: column; 
+        width: 70%; 
+        text-align: center;
+        margin: 0.3em auto;
+    }
+
+    .resultados{
+        font-size: 1.4em;
+        margin: 0.2em;
+    }
+
+    .inputs #grauInicio {
+        width: 5em;
+        font-size: 1em;
+    }
+
+    #img1, #img2{
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        margin: 0em;
+    }
+
+    header {
+        margin: 1em auto;
+    }
+
+    #teste img {
+        position: absolute;
+        width: 11em;
+        height: auto;
+        margin-left: -15px;
+    }
+}
